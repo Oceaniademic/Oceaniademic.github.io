@@ -1701,6 +1701,44 @@ ul#filters {
 }
 }
 @media (max-width: 640px){
+.team-gallery-bottom .post{
+	/* 每个post的超链接 */
+	width: 90%;
+	height: 130px;
+	border: 0px;
+	background-color: #e7e7e7;
+	border-radius: 10px;
+	margin: 24px auto;
+	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.team-gallery-bottom .post:hover{
+	background-color: rgb(221, 221, 221);
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+}
+
+.team-gallery-bottom .post h2{
+	font-weight: 400;
+	font-size: 30px;
+	color: #5b5b5b;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+	top: 30px;
+	left: 45px;
+}
+.team-gallery-bottom .post h3{
+	font-weight: 400;
+	font-size: 15px;
+	color: #5b5b5b;
+	line-height: 30px;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	top: 30px;
+	left: 45px;
+}
 	.kogasa {
 		width: 0;
 		height: 0;
@@ -1793,15 +1831,53 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 }
 }
 @media only screen and (max-width: 480px){
-	.kogasa {
-		width: 0;
-		height: 0;
-	}
-	
-	.murasa {
-		width: 0;
-		height: 0;
-	}
+.team-gallery-bottom .post{
+	/* 每个post的超链接 */
+	width: 90%;
+	height: 130px;
+	border: 0px;
+	background-color: #e7e7e7;
+	border-radius: 10px;
+	margin: 24px auto;
+	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.team-gallery-bottom .post:hover{
+	background-color: rgb(221, 221, 221);
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+}
+
+.team-gallery-bottom .post h2{
+	font-weight: 400;
+	font-size: 30px;
+	color: #5b5b5b;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+	top: 30px;
+	left: 45px;
+}
+.team-gallery-bottom .post h3{
+	font-weight: 400;
+	font-size: 15px;
+	color: #5b5b5b;
+	line-height: 30px;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	top: 30px;
+	left: 45px;
+}
+.kogasa {
+	width: 0;
+	height: 0;
+}
+
+.murasa {
+	width: 0;
+	height: 0;
+}
 .logo a img {
 	width: 87%;
 }	
@@ -1933,15 +2009,53 @@ ul.tabs-menu li a {
 }
 }
 @media (max-width:320px){
-	.kogasa {
-		width: 0;
-		height: 0;
-	}
-	
-	.murasa {
-		width: 0;
-		height: 0;
-	}
+.team-gallery-bottom .post{
+	/* 每个post的超链接 */
+	width: 90%;
+	height: 130px;
+	border: 0px;
+	background-color: #e7e7e7;
+	border-radius: 10px;
+	margin: 24px auto;
+	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.team-gallery-bottom .post:hover{
+	background-color: rgb(221, 221, 221);
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+}
+
+.team-gallery-bottom .post h2{
+	font-weight: 400;
+	font-size: 30px;
+	color: #5b5b5b;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+	top: 30px;
+	left: 45px;
+}
+.team-gallery-bottom .post h3{
+	font-weight: 400;
+	font-size: 15px;
+	color: #5b5b5b;
+	line-height: 30px;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	top: 30px;
+	left: 45px;
+}
+.kogasa {
+	width: 0;
+	height: 0;
+}
+
+.murasa {
+	width: 0;
+	height: 0;
+}
 .logo a img {
 	width: 80%;
 }	
