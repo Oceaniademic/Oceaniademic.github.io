@@ -1,0 +1,160 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>趣站链接</title>
+<link rel="icon" href="/images/page_icon.jpg" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../css/style.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>  
+<!---- start-smooth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---end-smooth-scrolling-->
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!--End-top-nav-script-->
+</head>
+
+<body>
+	<!--start-header-->
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="#"><img src="../images/logo.png" alt=""></a>  
+			</div>
+			<!--start-top-nav-->
+			<nav class="top-nav">
+				<ul class="top-nav">
+					<li><a href="../index.html">主页</a></li>&nbsp;
+					<li><a href="../work_idx.html">刊物作品</a></li>&nbsp;
+					<li><a href="../announces.html">社群公告</a></li>&nbsp;
+					<li><a href="../rules.html">社群规约</a></li>&nbsp;
+					<li><a href="../about.html">关于</a></li>&nbsp;
+					<li><a href="../links.html">趣站链接</a></li>&nbsp;
+				</ul>
+				<a href="#" id="pull"><img src="../images/menu-icon.png" title="menu" /></a>
+			</nav>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+		<!--End-header-->
+	
+	<div class="team-gallery">
+		<div class="container">
+			<div class="team-gallery-top" style="border-bottom: 0.5px solid black;">
+				<h3 style="text-align: left;margin-left: 0;">趣站链接</h3>
+				<p style="text-align: left;margin-left: 4px;margin-bottom: 40px;">インターネット中の不思議を集めて</p>
+				<!-- <div style="text-align: center; margin: 2em 0;">
+				</div> -->
+			</div>
+			<div class="links">
+				<div class="site" onclick="window.open('https://moriyashrine.org/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/moriya_shrine.webp);"></div>
+					<h2>MoriyaShrine</h2>
+				</div>
+				<div class="site" onclick="window.open('https://maribelhearn.com/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/maribel_hearn.png);background-size: 60%;"></div>
+					<h2>Maribel Hearn's Touhou Portal</h2>
+				</div>
+				<div class="site" onclick="window.open('https://www.isndes.com/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/isndes.ico);background-size: 60%;"></div>
+					<h2>甜品站</h2>
+				</div>
+				<div class="site" onclick="window.open('http://lunarcast.net/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/lunarcast.ico);background-size: 60%;"></div>
+					<h2>LunarCast</h2>
+				</div>
+				<div class="site" onclick="window.open('https://wikiwiki.jp/thk/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/Th05Yin-YangOrb.png);background-size:70%;"></div>
+					<h2>東方Project攻略Wiki</h2>
+				</div>
+				<div class="site" onclick="window.open('https://www.silentselene.net/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/silentselene.ico);background-size:70%;"></div>
+					<h2>SilentSelene</h2>
+				</div>
+				<div class="site" onclick="window.open('https://gensokyoradio.net/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/gsk_radio.ico);background-size:70%;"></div>
+					<h2>GensokyoRadio</h2>
+				</div>
+				<div class="site" onclick="window.open('https://ximin.top/thfm/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/power.jpg);background-size:70%;"></div>
+					<h2>习泯小点</h2>
+				</div>
+				<div class="site" onclick="window.open('https://thvideo.tv/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/patchyvideo.80ae4f27.svg);background-size:70%;"></div>
+					<h2>PachyVideo</h2>
+				</div>
+				<div class="site" onclick="window.open('https://touhou-project.news/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/zun_mark.png);background-size:70%;"></div>
+					<h2>东方四方山新闻</h2>
+				</div>
+				<div class="site" onclick="window.open('https://wiki.514.live/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/fxtz.ico);background-size:70%;"></div>
+					<h2>非想天则指南</h2>
+				</div>
+				<div class="site" onclick="window.open('https://gyate.net/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/gyate.png);background-size:110%;"></div>
+					<h2>Gyate Booru</h2>
+				</div>
+				<div class="site" onclick="window.open('https://izakaya.cc/', '_self')">
+					<div class="site-logo" style="background-image: url(/sites/TMI.png);background-size:70%;"></div>
+					<h2>东方夜雀食堂小助手</h2>
+				</div>
+				</div>
+				<div class="site"></div>
+				<div class="site"></div>
+				<div class="site"></div>
+				<div class="site"></div>
+				<div class="site"></div>
+				<div class="site"></div>
+				<div class="site"></div>
+				<div class="site"></div>
+			</div>
+		</div>
+	</div>
+			<!--starts-footer-->
+			<div class="footer">
+				<div class="container">
+					<div class="footer-main">
+						<p>2024-梦环翠海~哈工大威海东方同好会</p>
+						<p>Powered by&copy 2014 w3layouts</p>
+					</div>
+				</div>
+				
+			</div>
+			<!--End-footer-->
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Black sea Website Template | Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>  
+<!---- start-smooth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---end-smooth-scrolling-->
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!--End-top-nav-script-->
+</head>
+<body>
+	<!--start-header-->
+					<div class="header">
+						<div class="container">
+							<div class="logo">
+								<a href="#"><img src="images/logo.png" alt=""></a>  
+							</div>
+							<!--start-top-nav-->
+							 <nav class="top-nav">
+								<ul class="top-nav">
+									<li><a href="index.html">HOME</a></li>&nbsp;/
+									<li><a href="about.html">ABOUT ME</a></li>&nbsp;/
+									<li><a href="portfolio.html">PORTFOLIO</a></li>&nbsp;/
+									<li><a href="index.html">CONTACT ME</a></li>
+								</ul>
+								<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+							</nav>
+							<div class="clearfix"> </div>
+						</div>
+				</div>
+		<!--End-header-->
+		<!-- Portfolio Starts Here -->
+	<div class="portfolios entertain_box  wow fadeInUp" data-wow-delay="0.4s" id="project">
+		<div class="container">
+			<div class="portfolio-top">
+			<h3>PORTFOLIO</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris.</p>
+			<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="app card icon logo web">All</span></li>
+						<li><span class="filter" data-filter="app">Category 1</span></li>
+						<li><span class="filter" data-filter="card">Category 2</span></li>
+						<li><span class="filter" data-filter="icon">Category 3</span></li>
+					</ul>
+					<div id="portfoliolist">
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="images/abt-1.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+						     <img src="images/a-7.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/add.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+					</div>				
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="images/abt-2.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+						     <img src="images/a-2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/add.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+					</div>		
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="images/abt-3.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+						     <img src="images/a-3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/add.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+					</div>				
+					<div class="portfolio icon mix_all" data-cat="logo" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="images/abt-4.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+						     <img src="images/a-4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/add.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+					</div>	
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="images/abt-5.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+						     <img src="images/a-5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/add.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+					</div>			
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="images/abt-6.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+						     <img src="images/a-6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/add.png" alt=""/></h2>
+						  	 </div></a>
+		                </div>
+					</div>
+		</div>
+		</div>
+	</div>
+</div>
+<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+		</script>
+	<!-- Portfolio Ends Here -->
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script type="text/javascript">
+$(function () {
+	
+	var filterList = {
+	
+		init: function () {
+		
+			// MixItUp plugin
+		// http://mixitup.io
+		$('#portfoliolist').mixitup({
+			targetSelector: '.portfolio',
+			filterSelector: '.filter',
+			effects: ['fade'],
+			easing: 'snap',
+			// call the hover effect
+			onMixEnd: filterList.hoverEffect()
+		});				
+	
+	},
+	
+	hoverEffect: function () {
+	
+		// Simple parallax effect
+		$('#portfoliolist .portfolio').hover(
+			function () {
+				$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+				$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+			},
+			function () {
+				$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+				$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+			}		
+		);				
+	
+	}
+
+};
+
+// Run the show!
+	filterList.init();
+	
+});	
+</script>
+	<div class="team-gallery">
+		<div class="container">
+			<div class="team-gallery-top">
+				<h3>TEAM GALLERY</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris.</p>
+			</div>
+			<div class="team-gallery-bottom">
+				<div class="col-md-3 team-left-top">
+					<img src="images/men-4.jpg">
+					<div class="team-left-bottom">
+						<h4>EXPETENDIS</h4>
+						<P>Eum cu tantas legere complectitur</P>
+						<div class="bton">
+							<a href="#">more</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-left-top">
+					<img src="images/men-3.jpg">
+					<div class="team-left-bottom">
+						<h4>MAILS SENTED</h4>
+						<P>Eum cu tantas legere complectitur</P>
+						<div class="bton">
+							<a href="#">more</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-left-top">
+					<img src="images/men-2.jpg">
+					<div class="team-left-bottom">
+						<h4>PHAEDRUM</h4>
+						<P>Eum cu tantas legere complectitur</P>
+						<div class="bton">
+							<a href="#">more</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-left-top">
+					<img src="images/men-1.jpg">
+					<div class="team-left-bottom">
+						<h4>NULLAM</h4>
+						<P>Eum cu tantas legere complectitur</P>
+						<div class="bton">
+							<a href="#">more</a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+			<!--starts-footer-->
+			<div class="footer">
+				<div class="container">
+					<div class="footer-main">
+						<p>&copy 2014-Template by <a href="http://w3layouts.com/">w3layouts</a></p>
+					</div>
+				</div>
+				<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			</div>
+			<!--End-footer-->
+</body>
+</html>

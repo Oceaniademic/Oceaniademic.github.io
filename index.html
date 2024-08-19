@@ -1,0 +1,185 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>主页-梦环翠海-</title>
+<link rel="icon" href="/images/page_icon.jpg" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>  
+<!---- start-smooth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---end-smooth-scrolling-->
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 840 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!--End-top-nav-script-->
+</head>
+
+<body>
+	<!--start-header-->
+			<div id="home" class="banner">
+					<div class="header" style="background-color: #55adb7; opacity: 0.9;">
+						<div class="container">
+							<div class="logo">
+								<a href="#"><img src="images/logo.png" alt=""></a>  
+							</div>
+							<!--start-top-nav-->
+							 <nav class="top-nav">
+								<ul class="top-nav">
+									<li><a href="index.html">主页</a></li>&nbsp;
+									<li><a href="work_idx.html">刊物作品</a></li>&nbsp;
+									<li><a href="announces.html">社群公告</a></li>&nbsp;
+									<li><a href="rules.html">社群规约</a></li>&nbsp;
+									<li><a href="about.html">关于</a></li>&nbsp;
+									<li><a href="links.html">趣站链接</a></li>&nbsp;
+								</ul>
+								<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+							</nav>
+
+							<div class="clearfix"> </div>
+						</div>
+				</div>
+				<div class="banner-text">
+					<div  id="top" class="callbacks_container">
+			      		<ul class="rslides" id="slider4">
+			        	<li>
+							<div class="banner-top">
+								<h1>幻萦翠峰 碧海如梦</h1>	
+								<div class="player">
+									<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1453428876&auto=0&height=66"></iframe>
+								</div>
+							</div>
+						</li>
+			      </ul>
+			    </div>
+			    <div class="clearfix"> </div>
+				</div>
+			</div>
+		<!--End-header-->
+		<!--Slider-Starts-Here-->
+				<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->
+			<!--about-starts-->
+			<div class="time">
+				<div class="container">
+					<div class="time-top">
+						<div class="kogasa"></div>
+						<div class="murasa"></div>
+						<h3>欢迎来到现实与幻想的交接——梦环翠海</h3>
+						<h4>我们是哈尔滨工业大学威海校区 爱好着东方project的同学们</h4>
+						<h4>自发建立的社群</h4>
+						<h4>旨在为这里的的东方爱好者提供一个交流渠道</h4>
+						<h4>同时为哈工威东方文化创作提供绵薄之力</h4>
+						<div style="height: 20px"></div>
+						<h4>我们热烈期待您的加入，为哈工威的东方社群提供春潮一般的新能量！</h4>
+						<div style="height: 5em"></div>
+					</div>
+				</div>
+			</div>
+			<!--End-about-->
+			
+			<!--Slider-Starts-Here-->
+				<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider5").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->
+			
+			<!--starts-footer-->
+			<div class="footer">
+				<div class="container">
+					<div class="footer-main">
+						<p>2024-梦环翠海~哈工大威海东方同好会</p>
+						<p>Powered by&copy 2014 w3layouts</p>
+					</div>
+				</div>
+				<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			</div>
+			<!--End-footer-->
+</body>
+</html>
