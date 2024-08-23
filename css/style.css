@@ -958,6 +958,12 @@ div#tab1 p,div#tab2 p,div#tab3 p{
 	margin: 80px auto 40px auto;
 	border:1px solid rgb(255, 255, 255);
 	background-color: #e7e7e7;
+	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.author:hover{
+	background-color: rgb(221, 221, 221);
+	transform: scale(1.03); /* 鼠标悬停时放大div */
 }
 .author .profile{
 	background-image: url(../authors/gocean.jpg);
