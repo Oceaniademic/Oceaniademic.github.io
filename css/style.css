@@ -966,7 +966,6 @@ div#tab1 p,div#tab2 p,div#tab3 p{
 	transform: scale(1.03); /* 鼠标悬停时放大div */
 }
 .author .profile{
-	background-image: url(../authors/gocean.jpg);
 	background-size:contain;
 	position:relative;
 	margin:30px auto 10px auto;
