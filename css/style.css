@@ -517,6 +517,24 @@ ul.callbacks_tabs.callbacks2_tabs {
     width: 270px;
     height: 270px;
 }
+.time-top .new-portal{
+	/* 主页上新通知传送门的超链接 */
+	width: 300px;
+	height: 60px;
+	border: 0px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 24px auto;
+	transition: border-color 0.5s ease, background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.time-top .new-portal:hover{
+	background-color: #fff;
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+	border-color: #357e87;
+}
 .about-bottom-one span.time-one{
 	background-position:0px 0px;
 }
@@ -872,6 +890,7 @@ div#tab1 p,div#tab2 p,div#tab3 p{
 	margin: 24px auto;
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
+	overflow: hidden;
 }
 .team-gallery-bottom .post:hover{
 	background-color: rgb(221, 221, 221);
@@ -1206,7 +1225,7 @@ ul#filters {
 .b-link-stripe:hover .b-line{
 	opacity:1;
 }
-}
+
 #filters {
 	margin: 3% 0;
 	padding: 0;
@@ -1331,6 +1350,7 @@ ul#filters {
 	color:#357e87;
 }
 
+
 .team-gallery-bottom .post h2{
 	font-weight: 400;
 	font-size: 30px;
@@ -1352,6 +1372,28 @@ ul#filters {
 	top: 30px;
 	left: 45px;
 }
+
+.time-top .new-portal{
+	/* 每个post的超链接 */
+	width: 300px;
+	height: 60px;
+	border: 0px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 24px auto;
+	transition: border-color 0.5s ease, background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.time-top .new-portal:hover{
+	background-color: #fff;
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+	border-color: #357e87;
+}
+
+
+
 .banner {
 	min-height: 682px;
 }
@@ -1412,6 +1454,25 @@ ul#filters {
 	top: 30px;
 	left: 45px;
 }
+
+.time-top .new-portal{
+	/* 每个post的超链接 */
+	width: 300px;
+	height: 60px;
+	border: 0px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 24px auto;
+	transition: border-color 0.5s ease, background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.time-top .new-portal:hover{
+	background-color: #fff;
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+	border-color: #357e87;
+}
 .contact-top {
 	height: 70%;
 	top: 14%;
@@ -1461,6 +1522,25 @@ ul#filters {
 	position: relative;
 	top: 30px;
 	left: 45px;
+}
+
+.time-top .new-portal{
+	/* 每个post的超链接 */
+	width: 300px;
+	height: 60px;
+	border: 0px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 24px auto;
+	transition: border-color 0.5s ease, background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.time-top .new-portal:hover{
+	background-color: #fff;
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+	border-color: #357e87;
 }
 .banner-top h1 {
 	font-size: 2.5em;
@@ -1587,6 +1667,24 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 .murasa {
 	width: 0;
 	height: 0;
+}
+.time-top .new-portal{
+	/* 每个post的超链接 */
+	width: 300px;
+	height: 60px;
+	border: 0px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 24px auto;
+	transition: border-color 0.5s ease, background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.time-top .new-portal:hover{
+	background-color: #fff;
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+	border-color: #357e87;
 }
 ul#filters {
 	margin-top: 1.5em;
@@ -1753,6 +1851,25 @@ ul#filters {
 		width: 0;
 		height: 0;
 	}
+
+.time-top .new-portal{
+	/* 每个post的超链接 */
+	width: 300px;
+	height: 60px;
+	border: 0px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 24px auto;
+	transition: border-color 0.5s ease, background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.time-top .new-portal:hover{
+	background-color: #fff;
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+	border-color: #357e87;
+}
 .banner-top h1 {
 	font-size: 1.8em;
 }
@@ -1882,6 +1999,25 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 .murasa {
 	width: 0;
 	height: 0;
+}
+
+.time-top .new-portal{
+	/* 每个post的超链接 */
+	width: 300px;
+	height: 60px;
+	border: 0px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 24px auto;
+	transition: border-color 0.5s ease, background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.time-top .new-portal:hover{
+	background-color: #fff;
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+	border-color: #357e87;
 }
 .logo a img {
 	width: 87%;
@@ -2060,6 +2196,24 @@ ul.tabs-menu li a {
 .murasa {
 	width: 0;
 	height: 0;
+}
+.time-top .new-portal{
+	/* 每个post的超链接 */
+	width: 300px;
+	height: 60px;
+	border: 0px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 24px auto;
+	transition: border-color 0.5s ease, background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
+	cursor: pointer;
+}
+.time-top .new-portal:hover{
+	background-color: #fff;
+		transform: scale(1.03); /* 鼠标悬停时放大div */
+	color:#357e87;
+	border-color: #357e87;
 }
 .logo a img {
 	width: 80%;
