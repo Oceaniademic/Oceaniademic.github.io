@@ -881,8 +881,10 @@ div#tab1 p,div#tab2 p,div#tab3 p{
 	height: 100vh;
 }
 
-.team-gallery-bottom .post{
+.team-gallery-bottom a.post,.team-gallery-bottom a.post:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	display: block;
 	width: 912px;
 	height: 130px;
 	border: 0px;
@@ -893,13 +895,14 @@ div#tab1 p,div#tab2 p,div#tab3 p{
 	cursor: pointer;
 	overflow: hidden;
 }
-.team-gallery-bottom .post:hover{
+.team-gallery-bottom a.post:hover{
+	text-decoration: none;
 	background-color: rgb(221, 221, 221);
-		transform: scale(1.03); /* 鼠标悬停时放大div */
+	transform: scale(1.03); /* 鼠标悬停时放大div */
 	color:#357e87;
 }
 
-.team-gallery-bottom .post h2{
+.team-gallery-bottom a.post h2{
 	font-weight: 400;
 	font-size: 30px;
 	color: #5b5b5b;
@@ -909,7 +912,7 @@ div#tab1 p,div#tab2 p,div#tab3 p{
 	top: 30px;
 	left: 45px;
 }
-.team-gallery-bottom .post h3{
+.team-gallery-bottom a.post h3{
 	font-weight: 400;
 	font-size: 15px;
 	color: #5b5b5b;
@@ -1012,10 +1015,13 @@ div#tab1 p,div#tab2 p,div#tab3 p{
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
-.links .site{
+.links a.site,.links a.site:visited{
+	text-decoration: none;
+	display: block;
 	width: 250px;
 	height:220px;
 	margin: 20px 10px;
+	color: #5b5b5b;
 	background-color: #e7e7e7;
 	border-radius: 10px;
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
@@ -1334,8 +1340,10 @@ ul#filters {
 /*--portfolio-ends--*/
 /*--mediaquaries-starts--*/
 @media only screen and (max-width: 1366px){
-.team-gallery-bottom .post{
+.team-gallery-bottom a.post,.team-gallery-bottom a.post:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	display: block;
 	width: 912px;
 	height: 130px;
 	border: 0px;
@@ -1345,14 +1353,14 @@ ul#filters {
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
 }
-.team-gallery-bottom .post:hover{
+.team-gallery-bottom a.post:hover{
 	background-color: rgb(221, 221, 221);
 		transform: scale(1.03); /* 鼠标悬停时放大div */
 	color:#357e87;
 }
 
 
-.team-gallery-bottom .post h2{
+.team-gallery-bottom a.post h2{
 	font-weight: 400;
 	font-size: 30px;
 	color: #5b5b5b;
@@ -1362,7 +1370,7 @@ ul#filters {
 	top: 30px;
 	left: 45px;
 }
-.team-gallery-bottom .post h3{
+.team-gallery-bottom a.post h3{
 	font-weight: 400;
 	font-size: 15px;
 	color: #5b5b5b;
@@ -1417,8 +1425,10 @@ ul#filters {
 }
 }
 @media only screen and (max-width: 1280px){
-.team-gallery-bottom .post{
+.team-gallery-bottom a.post,.team-gallery-bottom a.post:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	display: block;
 	width: 912px;
 	height: 130px;
 	border: 0px;
@@ -1428,13 +1438,13 @@ ul#filters {
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
 }
-.team-gallery-bottom .post:hover{
+.team-gallery-bottom a.post:hover{
 	background-color: rgb(221, 221, 221);
 		transform: scale(1.03); /* 鼠标悬停时放大div */
 	color:#357e87;
 }
 
-.team-gallery-bottom .post h2{
+.team-gallery-bottom a.post h2{
 	font-weight: 400;
 	font-size: 30px;
 	color: #5b5b5b;
@@ -1444,7 +1454,7 @@ ul#filters {
 	top: 30px;
 	left: 45px;
 }
-.team-gallery-bottom .post h3{
+.team-gallery-bottom a.post h3{
 	font-weight: 400;
 	font-size: 15px;
 	color: #5b5b5b;
@@ -1486,8 +1496,10 @@ ul#filters {
 }
 }
 @media only screen and (max-width: 1024px){
-.team-gallery-bottom .post{
+.team-gallery-bottom a.post,.team-gallery-bottom a.post:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	display: block;
 	width: 90%;
 	height: 130px;
 	border: 0px;
@@ -1497,13 +1509,13 @@ ul#filters {
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
 }
-.team-gallery-bottom .post:hover{
+.team-gallery-bottom a.post:hover{
 	background-color: rgb(221, 221, 221);
 		transform: scale(1.03); /* 鼠标悬停时放大div */
 	color:#357e87;
 }
 
-.team-gallery-bottom .post h2{
+.team-gallery-bottom a.post h2{
 	font-weight: 400;
 	font-size: 30px;
 	color: #5b5b5b;
@@ -1513,7 +1525,7 @@ ul#filters {
 	top: 30px;
 	left: 45px;
 }
-.team-gallery-bottom .post h3{
+.team-gallery-bottom a.post h3{
 	font-weight: 400;
 	font-size: 15px;
 	color: #5b5b5b;
@@ -1622,8 +1634,10 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 }
 }
 @media only screen and (max-width: 768px){
-.team-gallery-bottom .post{
+.team-gallery-bottom a.post,.team-gallery-bottom a.post:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	display: block;
 	width: 90%;
 	height: 130px;
 	border: 0px;
@@ -1633,13 +1647,13 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
 }
-.team-gallery-bottom .post:hover{
+.team-gallery-bottom a.post:hover{
 	background-color: rgb(221, 221, 221);
 		transform: scale(1.03); /* 鼠标悬停时放大div */
 	color:#357e87;
 }
 
-.team-gallery-bottom .post h2{
+.team-gallery-bottom a.post h2{
 	font-weight: 400;
 	font-size: 30px;
 	color: #5b5b5b;
@@ -1649,7 +1663,7 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 	top: 30px;
 	left: 45px;
 }
-.team-gallery-bottom .post h3{
+.team-gallery-bottom a.post h3{
 	font-weight: 400;
 	font-size: 15px;
 	color: #5b5b5b;
@@ -1805,8 +1819,10 @@ ul#filters {
 }
 }
 @media (max-width: 640px){
-.team-gallery-bottom .post{
+.team-gallery-bottom a.post,.team-gallery-bottom a.post:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	display: block;
 	width: 90%;
 	height: 130px;
 	border: 0px;
@@ -1816,13 +1832,13 @@ ul#filters {
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
 }
-.team-gallery-bottom .post:hover{
+.team-gallery-bottom a.post:hover{
 	background-color: rgb(221, 221, 221);
 		transform: scale(1.03); /* 鼠标悬停时放大div */
 	color:#357e87;
 }
 
-.team-gallery-bottom .post h2{
+.team-gallery-bottom a.post h2{
 	font-weight: 400;
 	font-size: 30px;
 	color: #5b5b5b;
@@ -1832,7 +1848,7 @@ ul#filters {
 	top: 30px;
 	left: 45px;
 }
-.team-gallery-bottom .post h3{
+.team-gallery-bottom a.post h3{
 	font-weight: 400;
 	font-size: 15px;
 	color: #5b5b5b;
@@ -1954,8 +1970,10 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 }
 }
 @media only screen and (max-width: 480px){
-.team-gallery-bottom .post{
+.team-gallery-bottom a.post,.team-gallery-bottom a.post:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	display: block;
 	width: 90%;
 	height: 130px;
 	border: 0px;
@@ -1965,13 +1983,13 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
 }
-.team-gallery-bottom .post:hover{
+.team-gallery-bottom a.post:hover{
 	background-color: rgb(221, 221, 221);
 		transform: scale(1.03); /* 鼠标悬停时放大div */
 	color:#357e87;
 }
 
-.team-gallery-bottom .post h2{
+.team-gallery-bottom a.post h2{
 	font-weight: 400;
 	font-size: 30px;
 	color: #5b5b5b;
@@ -1981,7 +1999,7 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 	top: 30px;
 	left: 45px;
 }
-.team-gallery-bottom .post h3{
+.team-gallery-bottom a.post h3{
 	font-weight: 400;
 	font-size: 15px;
 	color: #5b5b5b;
@@ -2151,8 +2169,10 @@ ul.tabs-menu li a {
 }
 }
 @media (max-width:320px){
-.team-gallery-bottom .post{
+.team-gallery-bottom a.post,.team-gallery-bottom a.post:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	display: block;
 	width: 90%;
 	height: 130px;
 	border: 0px;
@@ -2162,13 +2182,13 @@ ul.tabs-menu li a {
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
 }
-.team-gallery-bottom .post:hover{
+.team-gallery-bottom a.post:hover{
 	background-color: rgb(221, 221, 221);
 		transform: scale(1.03); /* 鼠标悬停时放大div */
 	color:#357e87;
 }
 
-.team-gallery-bottom .post h2{
+.team-gallery-bottom a.post h2{
 	font-weight: 400;
 	font-size: 30px;
 	color: #5b5b5b;
@@ -2178,7 +2198,7 @@ ul.tabs-menu li a {
 	top: 30px;
 	left: 45px;
 }
-.team-gallery-bottom .post h3{
+.team-gallery-bottom a.post h3{
 	font-weight: 400;
 	font-size: 15px;
 	color: #5b5b5b;
