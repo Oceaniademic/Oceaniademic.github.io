@@ -518,8 +518,11 @@ ul.callbacks_tabs.callbacks2_tabs {
     width: 270px;
     height: 270px;
 }
-.time-top .new-portal{
+.time-top a.new-portal,.time-top a.new-portal:visited{
 	/* 主页上新通知传送门的超链接 */
+	text-decoration: none;
+	color: #4972a5;
+	display: block;
 	width: 300px;
 	height: 60px;
 	border: 0px;
@@ -530,7 +533,8 @@ ul.callbacks_tabs.callbacks2_tabs {
 	transition: border-color 0.5s ease, background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
 }
-.time-top .new-portal:hover{
+.time-top a.new-portal:hover{
+	text-decoration: none;
 	background-color: #fff;
 		transform: scale(1.03); /* 鼠标悬停时放大div */
 	color:#357e87;
@@ -1027,7 +1031,7 @@ div#tab1 p,div#tab2 p,div#tab3 p{
 	transition: background-color 0.5s ease, transform 0.5s ease, color 0.5s ease;
 	cursor: pointer;
 }
-.links .site:hover{
+.links a.site:hover{
 	background-color: rgb(221, 221, 221);
  	transform: scale(1.03); /* 鼠标悬停时放大div */
 }
@@ -1382,8 +1386,11 @@ ul#filters {
 	left: 45px;
 }
 
-.time-top .new-portal{
+.time-top a.new-portal,.time-top a.new-portal:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	color: #4972a5;
+	display: block;
 	width: 300px;
 	height: 60px;
 	border: 0px;
@@ -1466,8 +1473,11 @@ ul#filters {
 	left: 45px;
 }
 
-.time-top .new-portal{
+.time-top a.new-portal,.time-top a.new-portal:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	color: #4972a5;
+	display: block;
 	width: 300px;
 	height: 60px;
 	border: 0px;
@@ -1537,8 +1547,11 @@ ul#filters {
 	left: 45px;
 }
 
-.time-top .new-portal{
+.time-top a.new-portal,.time-top a.new-portal:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	color: #4972a5;
+	display: block;
 	width: 300px;
 	height: 60px;
 	border: 0px;
@@ -1683,8 +1696,11 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 	width: 0;
 	height: 0;
 }
-.time-top .new-portal{
+.time-top a.new-portal,.time-top a.new-portal:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	color: #4972a5;
+	display: block;
 	width: 300px;
 	height: 60px;
 	border: 0px;
@@ -1869,8 +1885,11 @@ ul#filters {
 		height: 0;
 	}
 
-.time-top .new-portal{
+.time-top a.new-portal,.time-top a.new-portal:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	color: #4972a5;
+	display: block;
 	width: 300px;
 	height: 60px;
 	border: 0px;
@@ -2020,8 +2039,11 @@ div#tab1 p, div#tab2 p, div#tab3 p {
 	height: 0;
 }
 
-.time-top .new-portal{
+.time-top a.new-portal,.time-top a.new-portal:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	color: #4972a5;
+	display: block;
 	width: 300px;
 	height: 60px;
 	border: 0px;
@@ -2218,8 +2240,11 @@ ul.tabs-menu li a {
 	width: 0;
 	height: 0;
 }
-.time-top .new-portal{
+.time-top a.new-portal,.time-top a.new-portal:visited{
 	/* 每个post的超链接 */
+	text-decoration: none;
+	color: #4972a5;
+	display: block;
 	width: 300px;
 	height: 60px;
 	border: 0px;
