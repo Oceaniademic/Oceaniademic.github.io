@@ -11,7 +11,7 @@ p {margin: 0;}
 html, body{
    font-family: 'Roboto', sans-serif;
    font-size: 100%;
-   background:#fff; 
+   background:#f5f5f5; 
 }
 body a{
 	color:#4972A5;
@@ -1923,6 +1923,7 @@ ul#filters {
 	width: 85%;
 }
 .footer {
+	display: block;
 	padding: 2em 0px;
 }
 ul.tabs-menu li a {
